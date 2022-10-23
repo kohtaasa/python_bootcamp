@@ -1,7 +1,7 @@
 from multiprocessing.sharedctypes import Value
 from random import shuffle
 class Card:
-    def __init__(self, value, suit):
+    def __init__(self, suit, value):
         self.value = value
         self.suit = suit
 
